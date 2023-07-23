@@ -1,0 +1,287 @@
+.collapse .mx-lg-auto{
+  margin-right: 0px!important;
+  margin-left: auto!important;
+}
+span.check{
+  display: block;
+  border-radius: 50%;
+  color: black;
+  background: white;
+  font-size: 16px;
+  width: 26px;
+  height: 26px;
+  line-height: 27px;
+  text-align: center;
+  font-weight: bold;
+}
+
+a.title{
+  letter-spacing: 1px;
+  font-size: 1.2em!important;
+  border-radius: 5px;
+}
+
+p.text-para{
+  color: black!important;
+  letter-spacing: 0.5px;
+}
+
+#newbox{
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 4px 0px inset;
+  padding: 20px 10px 1px 10px;
+}
+
+p.flexself{
+  display: flex;
+  padding-top: 10px;
+}
+
+.hero-content{
+  margin-top: 10px;
+}
+
+.minustop{
+  margin-top: -80px;
+}
+
+p.tengahbawah{
+  text-align: center;
+  color: black;
+  width: 800px;
+  margin: 20px auto;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+
+p.kiribawah{
+  color: black;
+  font-size: 1.1em;
+  margin-top: 5px;
+  width: 620px;
+}
+
+.blog-info{
+  border: 2px dashed #3F3A64;
+  padding-bottom: 20px;
+  transition: 0.4s;
+}
+
+.blog-info:hover{
+  transform: scale(1.01);
+}
+
+h3.title-medium{
+}
+
+.square{
+  margin-top: 30px;
+  display: flex;
+  width: 620px;
+  flex-wrap: wrap;
+}
+
+.square .box{
+  display: flex;
+  align-items: center;
+  width: 290px;
+  height: 65px;
+  line-height: 65px;
+  padding-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  background: white;
+  cursor: default;
+  position: relative;
+  top: 0px;
+  transition: 0.4s;
+}
+
+p#fa{
+  background: transparent!important;
+  color: rgba(0,0,0,0.8);
+  transition: 0.3s;
+  margin-top: -3px;
+  font-weight: bold!important;
+  font-size: 1.02em;
+  margin-right: 12px;
+}
+
+.fa-plus{
+  margin-top: 0px!important;
+}
+
+.fa-angle-double-right{
+  transform: rotate(-90deg);
+  margin-top: 0px!important;
+}
+
+.square .box:hover > p#fa{
+  background: transparent!important;
+  color: white!important;
+}
+
+.square .box:hover{
+  background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+  color: #F5F5F5;
+  top: -5px;
+  transform: scale(1.05);
+}
+
+span.icon-expand, span.fa-bars, span.fa, span.icon-close{
+  display: block;
+  width: 5px;
+  height: 1px;
+  background: black;
+}
+
+section#fitur{
+background: #F5F5F5;
+padding: 60px 100px;
+display: flex;
+margin: auto;
+}
+
+section#fitur{
+  align-items: center;
+}
+
+section#fitur .right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+section#fitur .right img{
+  width: 250px;
+  transition: 1.2s;
+  filter: grayscale(0.3);
+  margin-top: 30px;
+}
+
+section#fitur .right img:hover{
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+
+.fitur{
+}
+
+.star{
+  box-sizing: border-box;
+  display: flex;
+  list-style: none;
+  margin-top: -7px;
+}
+.star .fa {
+  font-size: 25px;
+  margin-right: 30px;
+  margin-top: 5px;
+  list-style: none;
+  background: transparent;
+}
+
+.star .fa-star-half-o{
+  font-size: 25px;
+  margin-right: 30px;
+  margin-top: 5px;
+  list-style: none;
+  background: transparent;
+  color: orange!important;
+}
+
+.star .checked{
+  color: orange;
+}
+
+.testi-des h3{
+  position: relative;
+  top: -5px;
+}
+
+.testi-des .indentity{
+  position: relative;
+  top: -5px;
+}
+
+section#testimonials{
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+blockquote q{
+  font-size: 1.35em;
+  letter-spacing: 1px;
+}
+
+
+@media (max-width: 1170px){
+  section#fitur .right{
+    justify-content: flex-end;
+  }
+  section#fitur .right img{
+    width: 200px;
+  }
+}
+
+@media (max-width: 1100px){
+  .minustop{
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 991px){
+  section#fitur{
+    flex-direction: column;
+    width: 100%;
+    padding: 60px 20px;
+  }
+  section#fitur .left{
+    width: 100%;
+  }
+  section#fitur .left .fitur{
+    width: 100%;
+  }
+  section#fitur .right{
+    justify-content: center;
+    width: 100%;
+  }
+  .square{
+    width: 100%;
+  }
+  .square .box{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  p.kiribawah{
+    width: 100%;
+  }
+}
+
+@media (max-width: 740px){
+  .minustop{
+    margin-top: 0px;
+  }
+  .hero-content{
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 500px){
+  section#fitur .right img{
+    width: 150px;
+  }
+}
+
+@media (max-width: 1000px){
+    p.tengahbawah{
+      text-align: center;
+      color: black;
+      width: 100%;
+      margin-top: 20px;
+      font-size: 1.1em;
+    }
+}
